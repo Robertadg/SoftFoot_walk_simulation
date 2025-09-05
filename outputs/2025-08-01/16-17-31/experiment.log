@@ -1,0 +1,8 @@
+[2025-08-01 16:19:37,639][jax._src.xla_bridge][ERROR] - Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()
+Traceback (most recent call last):
+  File "/home/rdelgiudice/loco-mujoco/venv/lib/python3.12/site-packages/jax/_src/xla_bridge.py", line 645, in discover_pjrt_plugins
+    plugin_module.initialize()
+  File "/home/rdelgiudice/loco-mujoco/venv/lib/python3.12/site-packages/jax_plugins/xla_cuda12/__init__.py", line 354, in initialize
+    triton.register_compilation_handler(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'jax._src.lib.triton' has no attribute 'register_compilation_handler'
