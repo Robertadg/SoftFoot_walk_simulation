@@ -126,7 +126,7 @@ def load_lafan1_trajectory(
 
         file_path = hf_hub_download(
             repo_id="robfiras/loco-mujoco-datasets",
-            filename=f"Lafan1/mocap/{env_name}/{d_name}",
+            filename=f"DefaultDatasets/mocap/{env_name}/{d_name}",
             repo_type="dataset"
         )
 
