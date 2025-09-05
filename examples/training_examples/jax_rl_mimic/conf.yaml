@@ -25,7 +25,7 @@ experiment:
     params:
       lafan1_dataset_conf:
         dataset_name:
-          - walk1_subject5
+          - walk
   env_params:
     env_name: MjxUnitreeH1
     headless: True
